@@ -7,7 +7,7 @@
 body {
     background-image: url("../img/fundo.png");
     background-size: auto 100vh;
-    font-family: Arial;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
     font-size: 15px;
 }
@@ -29,6 +29,34 @@ h1 {
   top: 8%;
   position: absolute;
   left: 10px;
+}
+
+.projetos h2 {
+ color: whitesmoke;
+}
+
+.projetos {
+  padding: 1em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  top: 38%;
+  position:absolute;
+  left:0px
+}
+
+.projetos .grid {
+  display: grid;
+  gap: 1em;
+}
+
+.projetos figure {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.img-projetos {
+  width: 170px;
+  height: 120px;
 }
 
 .menu a {
@@ -57,7 +85,7 @@ a:hover {
 .menu ul{
     display:flex;
     justify-content: space-around; 
-    background-image: url("../img/branco.jpg");
+    background-color: #b8bbc0;
   }
   
   
@@ -67,6 +95,7 @@ a:hover {
   
 
 .site-tittle {
+  font-family: 'Kalam', cursive;
   color: whitesmoke;
   text-align:center; 
 }
@@ -80,6 +109,7 @@ a:hover {
 
 
 .apresentacao {
+  font-family: 'Neucha', cursive;
   position:absolute;
   left:10px;
   top: 15%;
