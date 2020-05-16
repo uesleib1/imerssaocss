@@ -1,41 +1,73 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Pessoal</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kalam&family=Neucha&family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Pessoal</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+	rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="s">Sobre</a></li>
-        <li><a href="s">Projetos</a></li>
-        <li><a href="s">Contato</a></li>
-      </ul>
-    </nav>
-    <div>
-      <h1 class="site-tittle"> Ueslei Barbosa</h1>
-      <h2 class="site-subtittle"></h2>
-    </div>
-    <div class="apresentacao">
-Olá amigos, sejam bem vindos ao meus espaço! <br> Aqui você vai encontrar meus contatos e um pouco do meu trabablho. <br> Bom essa a minha primeira pagina web e por isso não da pra esperar grande coisa nesse momento, más isso vai melhorar!
-    </div>
-    <section class="projetos">
-      <h2>Meus Projetos</h2>
-      <div class="grid">
-      <figure>
-        <img class="img-projetos" src="./img/designer.jpg" alt="Minhas Criações designer">
-            <figcaption>Minhas Criações</figcaption>
-      </figure>
-      <figure>
-        <img class="img-projetos" src="./img/trabalhos.png" alt="trabalhos academicos">
-        <figcaption>Trabalhos Academicos</figcaption>
-      </figure>
-    </div>
-    </section>
+		<nav class="menu">
+			<ul>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#portfolio">Habilidades</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+		<div class="titulo">
+			<h1 class="site-title">Ueslei Barbosa</h1>
+			<h2 class="site-subtitle">O mais novo estudante de CSS e Html</h2>
+			<h2 class="site-subtitle">Veja aqui alguns dos meus projetos e Hobbies!</h2>
+		</div>
   </header>
+  <section class="portfolio" id="portfolio">
+		<h2>Habilidades e Hobbies</h2>
+
+		<div class="grid">
+			<figure>
+				<img class="img-portfolio" src="./img/violao.png" alt="Violão">
+				<figcaption>Violão</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/photoshop.jpg" alt="photoshop">
+				<figcaption>Photoshop</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/qgis.jpg" alt="qgis">
+				<figcaption>Qgis</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/estast.jpg" alt="Estatistica">
+				<figcaption>Estatística</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/css.jpg" alt="programacao">
+				<figcaption>Css/HTML/JavaScript</figcaption>
+			</figure>
+		</div>
+		
+	</section>
+	<section class="contato" id="contato">
+		<h2>Contato</h2>
+	
+		<div class="grid icons">
+			<a target="_blank" href="https://github.com/uesleib1">
+				<i class="fab fa-github"></i>
+			</a>
+			<a target="_blank" href="https://twitter.com/EfeitoDeBorda">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a target="_blank" href="https://instagram.com/uesleib10">
+				<i class="fab fa-instagram"></i>
+			</a>
+			
+		</div>
+	</section>
 </body>
 </html>
